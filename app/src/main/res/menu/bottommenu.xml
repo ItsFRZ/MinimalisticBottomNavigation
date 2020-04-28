@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:iconTint="#FFFFFF"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_backgroundColor="#FF8A86"
+        app:cnb_iconColor="#FFFFFF"
+        app:cnb_textColor="#FFFFFF" />
+    <item
+        android:id="@+id/movie"
+        app:cnb_backgroundColor="#FF8A86"
+        app:cnb_iconColor="#FFFFFF"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFFFFF"
+        android:icon="@drawable/ic_movie_black_24dp"
+        android:title="Movie" />
+    <item
+        android:id="@+id/pictures"
+        app:cnb_backgroundColor="#FF8A86"
+        app:cnb_iconColor="#FFFFFF"
+        app:cnb_textColor="#FFFFFF"
+        app:cnb_iconTintMode="src_in"
+        android:iconTint="#FFFFFF"
+        android:icon="@drawable/ic_photo_black_24dp"
+        android:title="Pictures" />
+    <item
+        android:id="@+id/videos"
+        app:cnb_backgroundColor="#FF8A86"
+        app:cnb_iconColor="#FFFFFF"
+        android:iconTint="#FFFFFF"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFFFFF"
+        android:icon="@drawable/ic_play_circle_filled_black_24dp"
+        android:title="Videos" />
+</menu>
